@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Josefin+Sans&family=Poppins:wght@300;400&family=Raleway&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(241, 246, 250);
+}
+
+h1{
+ margin: 20px;
+ margin:25px;
+ padding: 10px;
+ border-left:solid 4px rgb(254,150,2);
+ border-radius: 5px;
+  font-weight: 700;
+  color: rgb(8, 21, 65);
+}
+
+.team-info h2{
+  font-size: 70px;
+  font-weight: 900;
+  color: rgb(35,122,174);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.colors{
+  color: rgb(21, 31, 108);
+}
+
+.information{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+  margin: 10px;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(24, 23, 23);
+}
+.home-container{
+  padding: 20px;
+  margin: 20px;
+}
+
+.team-section{
+  padding: 20px;
+  margin: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+  display: flex;
+  align-items: center;
+
+}
+
+button{
+  border: 1px solid white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgb(254,150,2);
+}
+
+
+.team-image {
+  width: 500px;
+}
+.team-image img{
+  width: 500px;
+}
+
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 1130px) {
+  .team-section {
+    display: block;
+  }
+
+  .team-info h2 {
+    font-size: 40px; /* Decrease font size for smaller screens */
+  }
+
+  .team-image{
+    width: 500px;
+    margin: auto;
+  }
+
+  h1{
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .information{
+    padding: 10px;
+    margin: 0px;
+
+  }
+
+  .team-section{
+    padding: 10px;
+    margin: 10px;
+  }
+
+}
+
+@media (max-width: 610px) {
+  .team-image{
+    width: 400px;
+    margin: auto;
+  }
+
+  .team-image img{
+    width: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .team-image{
+    width: 250px;
+    margin: auto;
+  }
+
+  .team-image img{
+    width: 250px;
+  }
+
+  h1{
+    font-size: 25px;
+  }
+
+
+.team-info h2{
+  font-size: 30px;
+}
+
+.information{
+  font-size: 18px;
+  padding: 0px;
+}
+}
